@@ -18,6 +18,11 @@
 .options {
     border: 1px solid black;
     text-align: center;
+    border-left: none;
+}
+
+.first {
+    border-left: 1px solid black;
 }
 
 .options:hover {
