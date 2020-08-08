@@ -5,8 +5,8 @@ for (i = 0; i < clickedElem.length; i++) {
     clickedElem[i].addEventListener('click', function () {
         let notNeed = document.querySelectorAll(".subElem");
         for (j = 0; j < notNeed.length; j++) {
-            if (not[j].classList.contains("show2")) {
-                not[j].classList.remove("show2");
+            if (notNeed[j].classList.contains("show2")) {
+                notNeed[j].classList.remove("show2");
             } else {
                 target.classList.toggle("show2");
             }
